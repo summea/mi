@@ -1,0 +1,23 @@
+2012-02-06  summea  <>
+
+  * VERSION: Bumped version to 0.0.2.
+
+  * dispatch.php: Split up routes from responder; moved responder to dispatch.
+
+  * object.php: Now using singleton pattern for instantiating object.
+
+  * object.php: Removed all code related to guessing controller inflection.
+
+2012-02-04  summea  <>
+
+  * VERSION: Bumped version to 0.0.1.
+
+  * object.php: Added getPrimaryKey() method, for now.
+
+  * model.php: Added getPrimaryKey() method, for now.
+
+  * model.php: Added create() and update() methods.
+
+  * controller.php: Added getPrimaryKey() method, for now.
+
+  * routes.php: Added some primaryKey stuff, for now.

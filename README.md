@@ -1,2 +1,6 @@
-# mi
-A framework that never really made it off the ground.  Basically based on CakePHP's interpretation of Ruby on Rails.
+# Mi
+
+Yet another web framework.
+
+## License
+MIT (Please check LICENSE file for license information.)

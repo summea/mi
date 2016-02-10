@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>Mi3</title>
+<link href="<?php echo Configure::read('LIB_PUBLIC_URL') ?>/css/default.css" type="text/css" rel="stylesheet" />
+<link href="<?php echo Configure::read('WEB_BASE_URL') ?>/css/temptheme.css" type="text/css" rel="stylesheet" />
+<script src="<?php echo Configure::read('LIB_PUBLIC_URL') ?>/javascript/jquery-latest.js"></script>
+<script src="<?php echo Configure::read('LIB_PUBLIC_URL') ?>/javascript/jquery-ui.js"></script>
+<script src="<?php echo Configure::read('LIB_PUBLIC_URL') ?>/javascript/default.js"></script>
+</head>
+<body>
+<div id="content">
+
+<div id="nav">
+<ul>
+<li><a href="<?= BASE_URL ?>/homes/index">Home</a></li>
+<li><a href="<?= BASE_URL ?>/entries/create">New Story</a></li>
+<li><a href="<?= BASE_URL ?>/entries/index">Manage Entries</a></li>
+<li><a href="<?= BASE_URL ?>/">Site Homepage</a></li>
+</ul>
+</div>
+
+<?php echo $content_for_layout ?>
+
+</div>
+</body>
+</html>

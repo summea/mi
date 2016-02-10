@@ -1,0 +1,11 @@
+<h1>Show Entry</h1>
+
+<?php
+
+    foreach($param['entries'] as $entry)
+    {
+        echo '<h3>' . $entry['e_subject'] . '</h3>';
+        echo $entry['e_entry'] . '<br><br>';
+    }
+
+?>

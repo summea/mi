@@ -1,0 +1,66 @@
+body {
+    background-color:fff;
+    color:333;
+    font: Arial, sans-serif;
+}
+
+#error_box {
+    background-color:#d77;
+    padding:10px;
+    font:bold 14px Arial, sans-serif;
+}
+
+#error_box a {
+    margin-left:10px;
+    font-size:12px;
+}
+
+#error_details {
+    font-weight:normal;
+}
+
+#debug_box {
+    background-color:#ADD8E6;
+    margin-bottom:10px;
+    padding:10px;
+    font:bold 14px Arial, sans-serif;
+}
+
+#debug_box a {
+    margin-left:10px;
+    font-size:12px;
+}
+
+#debug_details {
+    font-weight:normal;
+    margin-top:10px;
+}
+
+#debug_details ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+#debug_details li {
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 1px dotted #777;
+}
+
+#debug_details span.label {
+    font-weight:bold;
+    width:150px;
+    display:block;
+    float:left;
+}
+
+#flash_box {
+    margin-bottom:10px;
+    padding:10px;
+    padding-left:0;
+    font:bold 14px Arial, sans-serif;
+    color:#00aa00;
+}

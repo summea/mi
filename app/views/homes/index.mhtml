@@ -1,0 +1,15 @@
+<h1>Welcome, {USERNAME}!</h1>
+
+<ul>
+<li>
+    <a href="<?php echo $BASE_URL; ?>entries/index">Entries</a>
+    <ul>
+    <li><a href="<?php echo $BASE_URL; ?>entries/create">Create</a>
+    </ul>
+</li>
+<li>
+    <a href="<?php echo $BASE_URL; ?>users/index">Users</a>
+</li>
+<li>
+    <a href="<?php echo $BASE_URL; ?>homes/index">User Home</a>
+</li>

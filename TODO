@@ -1,0 +1,3 @@
+- some type of form helper so that primary_key (id) can be automatically added to form without user worrying about adding it... and also, so that edit pages can automatically get the right input/field information... instead of having to manually do it in the view
+- decide what actually needs to be passed to each Model/Controller/View piece of Object
+- fix/clean up model.php save() method

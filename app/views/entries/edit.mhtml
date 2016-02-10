@@ -1,0 +1,7 @@
+<?php
+    $form = new Form(array('action' => 'entries/save'));
+    $form->input(array('name' => 'subject', 'type' => 'text'));
+    $form->input(array('name' => 'body', 'type' => 'textarea'));
+    $form->input(array('name' => 'submit', 'type' => 'submit'));
+    $form->end();
+?>
